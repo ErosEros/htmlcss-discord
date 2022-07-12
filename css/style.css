@@ -1,0 +1,165 @@
+/* GENERICS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 2px solid black; */
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.2rem;
+}
+ /* FLEX-BOX */
+
+.flex {
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.reverse-row {
+    flex-direction: row-reverse;
+}
+
+/* HEADER */
+header {
+    background-color: blue;
+    height: 400px;
+    color: white;
+    
+} 
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.header-1 {
+    justify-content: space-around;
+    padding: 20px ;
+}
+
+.menu {
+    width: 50%;
+    justify-content: space-around;
+}
+
+.button-menu {
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+
+
+
+.header-2 {
+    padding-top: 100px;
+    align-items: center;
+    text-align: center;
+    line-height: 30px;
+    margin: 0 300px;
+    background-color: yellow;
+    flex-basis: 200px;
+}
+  
+
+/* BUTTON SCARICA DA MAC */
+#button-1 {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+/* BUTTON APRI DISCORD NEL BROWSER */
+#button-2 {
+    background-color: #23272a;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+}
+
+
+
+
+/* MAIN */
+main {
+    background-color: red;
+    
+    
+   
+}
+
+section > div {
+    height: calc(100% / 4);
+}
+
+.section-main {
+    align-items: center;
+    margin: 0 250px;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+
+.image {
+    height: 200px;
+    width: 200px;
+    border: 2px dashed black;
+   
+}
+
+.text-section {
+    width: 200px;
+}
+
+/* section 4 */
+.text-section-4 {
+    width: 400px;
+    margin-top: 20px;
+}
+
+/* FOOTER */ 
+footer {
+    background-color: #23272a;
+    color: white;
+    
+    
+}
+
+.footer-top {
+    justify-content: space-around;
+    line-height: 30px;
+}
+
+h3, h2 {
+    color:blue
+}
+
+.button-footer {
+    background-color: #8ea1e1;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+    
+}
+
+hr {
+    color: #8ea1e1;
+}
+
+.footer-bottom {
+    padding-top: 50px;
+    justify-content: space-between;
+}
+
+.footer-container {
+    margin: 0 250px;
+    padding: 20px;
+}
