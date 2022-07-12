@@ -28,11 +28,19 @@ body {
 
 /* HEADER */
 header {
-    background-color: blue;
-    height: 400px;
+    /* background-color: blue; */
+    background-image: url(../img_discord/jumbo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
     color: white;
     
 } 
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
 
 a {
     color: white;
@@ -65,7 +73,7 @@ a {
     text-align: center;
     line-height: 30px;
     margin: 0 300px;
-    background-color: yellow;
+    /* background-color: yellow; */
     flex-basis: 200px;
 }
   
@@ -91,7 +99,7 @@ a {
 /* MAIN */
 main {
     background-color: red;
-    
+    max-width: 2000px;
     
    
 }
@@ -106,6 +114,7 @@ section > div {
     justify-content: space-around;
     padding: 20px;
 }
+
 
 
 .image {
