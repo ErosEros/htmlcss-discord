@@ -72,9 +72,7 @@ a {
     align-items: center;
     text-align: center;
     line-height: 30px;
-    /* margin: 0 300px; */
-    /* background-color: yellow; */
-    /* flex-basis: 200px; */
+   
 }
   
 .text-header-2 {
@@ -112,7 +110,7 @@ a {
 
 /* MAIN */
 main {
-    /* background-color: red; */
+   
     max-width: 2000px;
     
    
@@ -122,9 +120,7 @@ section {
     height: 500px;
 }
 
-/* section > div {
-    height: calc(100% / 4);
-} */
+
 
 .section-main {
     align-items: center;
