@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: none;
     /* border: 2px solid black; */
 }
 
@@ -206,6 +207,7 @@ footer {
 .footer-top {
     justify-content: space-around;
     line-height: 30px;
+    padding-top: 35px;
 }
 
 .footer-top h3, h2  {
@@ -221,7 +223,8 @@ footer {
 }
 
 hr {
-    color: #8ea1e1;
+    color: #2e3442;
+    border: 0.5px solid;
 }
 
 .footer-bottom {
@@ -254,4 +257,8 @@ hr {
     border: none;
     
 
+}
+
+.logo-foot {
+    width: 100px;
 }
